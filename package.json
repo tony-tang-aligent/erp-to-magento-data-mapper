@@ -1,5 +1,5 @@
 {
-  "name": "@tony-tang/erp-to-magento-mapper",
+  "name": "@tonytang99/erp-to-magento-mapper",
   "version": "1.0.0",
   "description": "A declarative, flexible engine to transform ERP data objects into Magento 2 product payloads.",
   "type": "module",

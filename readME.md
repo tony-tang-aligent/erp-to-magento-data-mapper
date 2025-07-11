@@ -17,7 +17,7 @@ This package is designed to separate your business mapping logic from the transf
 ## Installation
 
 ```bash
-npm install @tony-tang/erp-to-magento-mapper
+npm install @tonytang99/erp-to-magento-mapper
 ```
 
 ## Quick Start
