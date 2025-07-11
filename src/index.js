@@ -1,5 +1,5 @@
 // src/index.js
-import set from 'lodash.set';
+import set from 'lodash/set.js';
 
 export class MagentoMapper {
     constructor(mapping) {

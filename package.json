@@ -33,12 +33,12 @@
     "url": "https://github.com/tony-tang-aligent/erp-to-magento-data-mapper/issues"
   },
   "homepage": "https://github.com/tony-tang-aligent/erp-to-magento-data-mapper",
-  "dependencies": {
-    "lodash.set": "^4.3.2"
-  },
   "devDependencies": {
     "@babel/cli": "^7.24.1",
     "@babel/core": "^7.24.4",
     "@babel/preset-env": "^7.24.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
