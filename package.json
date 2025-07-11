@@ -1,0 +1,44 @@
+{
+  "name": "@tony-tang/erp-to-magento-mapper",
+  "version": "1.0.0",
+  "description": "A declarative, flexible engine to transform ERP data objects into Magento 2 product payloads.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "magento",
+    "magento2",
+    "erp",
+    "api",
+    "integration",
+    "mapper",
+    "etl",
+    "transform"
+  ],
+  "author": "Tony Tang <tony.tang@aligent.com.au>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tony-tang-aligent/erp-to-magento-data-mapper/issues"
+  },
+  "homepage": "https://github.com/tony-tang-aligent/erp-to-magento-data-mapper",
+  "dependencies": {
+    "lodash.set": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4"
+  }
+}
